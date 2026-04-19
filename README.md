@@ -13,20 +13,13 @@
 ### 🎬 [Watch Demo Video](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
 > Click the link above to watch a full walkthrough of ShopHub
+> https://drive.google.com/file/d/1urTkjIKcG0xR5vAlTzIi0OC5X4AjbDze/view?usp=drive_link
 
 </div>
 
 ---
 
 ## 📋 Table of Contents
-
-- [Demo](#demo)
-- [About](#about)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Pages](#pages)
 - [Admin Panel](#admin-panel)
 - [Database](#database)
 - [Project Structure](#project-structure)
@@ -37,15 +30,8 @@
 
 ## 🎬 Demo
 
-| Type | Link |
-|------|------|
-| 🎥 Demo Video | [Watch on YouTube](https://www.youtube.com/watch?v=YOUR_VIDEO_ID) |
-| 🌐 Live Demo | [Visit Website](http://YOUR_LIVE_LINK_HERE) |
-| 💻 GitHub | [View Code](https://github.com/YOUR_USERNAME/ecommerce) |
-
-> **Note:** Replace `YOUR_VIDEO_ID` with your actual YouTube video ID after uploading demo video.
-> **Note:** Replace `YOUR_LIVE_LINK_HERE` with your actual hosted website link.
-> **Note:** Replace `YOUR_USERNAME` with your actual GitHub username.
+| 🎥 Demo Video :https://drive.google.com/file/d/1urTkjIKcG0xR5vAlTzIi0OC5X4AjbDze/view?usp=drive_link
+| 💻 GitHub | [View Code]( |https://github.com/Aenii630/E_commerce_ShopHub)
 
 ---
 
@@ -110,7 +96,7 @@ ShopHub is a full-featured e-commerce web application built with **Laravel 12** 
 ### Step 1: Clone Project
 ```bash
 cd C:\xampp\htdocs
-git clone https://github.com/YOUR_USERNAME/ecommerce.git
+git clone   https://github.com/Aenii630/E_commerce_ShopHub
 cd ecommerce
 ```
 
@@ -184,7 +170,7 @@ http://localhost:8000
 
 | Page | URL | Description |
 |------|-----|-------------|
-| 🏠 Home | `/` | Hero Section, Categories, Featured Products |
+| 🏠 Home | `/` |, Categories, Featured Products |
 | 🛍️ Products | `/products` | All Products with Filter & Search Sidebar |
 | 📦 Single Product | `/products/{id}` | Product Detail & Related Products |
 | 🛒 Cart | `/cart` | Shopping Cart with Summary |
@@ -325,46 +311,10 @@ User::create([
     'password' => bcrypt('YOUR_PASSWORD'), // ← Change this
     'role'     => 'admin',
 ]);
-```
 
-### ✏️ Change Store Name
-Search and replace `ShopHub` in all blade files with your store name.
-
-### ✏️ Change Store Location
-Open `resources/views/layouts/app.blade.php` footer:
-```html
-Sadiqabad, Punjab, Pakistan  <!-- ← Change this -->
-```
-
-### ✏️ Change Contact Email
-Open `app/Http/Controllers/ContactController.php`:
-```php
-->to('aenagul561@gmail.com') // ← Change this
-```
-
-### ✏️ Add Demo Video Link
-Open `README.md` and replace:
-```
-YOUR_VIDEO_ID  ← YouTube video ID
-```
-Example: YouTube URL `https://www.youtube.com/watch?v=abc123xyz`
-Replace `YOUR_VIDEO_ID` with `abc123xyz`
-
-### ✏️ Add Live Demo Link
-Open `README.md` and replace:
-```
-YOUR_LIVE_LINK_HERE  ← Your hosted website URL
-```
-
-### ✏️GitHub Link:
-```
-
----
 
 ## 📞 Contact
 
-| Field | Info |
-|-------|------|
 | 📧 Email | aenagul561@gmail.com |
 | 📍 Location | Sadiqabad, Punjab, Pakistan |
 | 🕐 Working Hours | Monday - Saturday: 9AM - 9PM |
@@ -379,7 +329,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-### 🎬 [▶️ Watch Full Demo Video]                           https://drive.google.com/file/d/1urTkjIKcG0xR5vAlTzIi0OC5X4AjbDze/view?usp=drive_link
+### 🎬 [▶️ Watch Full Demo Video]
+https://drive.google.com/file/d/1urTkjIKcG0xR5vAlTzIi0OC5X4AjbDze/view?usp=drive_link
 
 ---
 
@@ -387,7 +338,4 @@ Made with ❤️ in Sadiqabad, Pakistan
 
 **ShopHub © 2026 - All Rights Reserved**
 
-![Visitors](https://img.shields.io/badge/Made%20with-Laravel-FF2D20?style=for-the-badge&logo=laravel)
-
-</div>
-```
+![Visitors](https://img.shields.io/badge/Made%20with-Laravel-FF2D20?style=for-the-badge&logo=laravel)```
